@@ -1,0 +1,71 @@
+
+.main_img {
+    width: 80%;
+}
+
+.container_carousel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel {
+    margin-top: 50px;
+    width: 850px;
+    height: 850px;
+}
+
+.month_descr {
+    margin-top: 25px;
+    font-size: 25px;
+}
+
+body {
+    height: 1150px;
+    background: linear-gradient(#2E8B57 10%, #3D0071 100%);
+    flex-grow: 1;
+}
+
+
+p {
+    text-align: center;
+    color: white;
+}
+
+.descr {
+    margin-top: 50px
+}
+
+
+
+@media (max-width: 450px) {
+    .main_img {
+        width: 80%;
+    }
+
+    .carousel {
+        margin-top: 50px;
+        height: 300px;
+    }
+
+    .month_descr {
+        margin-top: 25px;
+    }
+
+    body {
+        padding: 10px;
+        background: linear-gradient(#2E8B57 10%, #3D0071 100%);
+    }
+
+    p {
+        text-align: justify;
+        color: white;
+    }
+
+    .descr {
+        margin-top: 50px
+    }
+}
+
+
+

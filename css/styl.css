@@ -1,0 +1,562 @@
+* {
+    font-family: "Times New Roman", sans-serif;
+}
+
+header {
+    position: fixed;
+    z-index: 3;
+    width: 100%;
+    margin: 0;
+}
+
+.subheader {
+    text-align: center;
+    background-color: rgba(46, 139, 87, 0.8);
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 50px;
+    text-transform: uppercase;
+    height: 50px;
+}
+
+.subheader .header_link {
+    color: black;
+    text-decoration: none;
+}
+
+.congratulation {
+    height: 760px;
+    background: url("../img/main_bg.png") center center/cover no-repeat;
+    padding-top: 100px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.congratulation .congratulation_description {
+    margin-top: 50px;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 40px;
+    color: white;
+    text-align: justify;
+}
+
+.navigation {
+    max-width: 600px;
+    margin: 15px auto;
+
+
+}
+
+.sendoff {
+    padding: 0 0 50px 0;
+    text-align: center;
+}
+
+.sendoff .sendoff_title {
+    margin-bottom: 15px;
+    font-size: 26px;
+    line-height: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #222222;
+}
+
+.waiting {
+    padding: 25px 0 25px 0;
+    text-align: center;
+    background-color: #070716;
+}
+
+.waiting .waiting_title {
+    color: white;
+    font-size: 26px;
+    line-height: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.waiting .waiting_img {
+    max-width: 100%;
+    margin-top: 25px;
+    filter: brightness(40%)
+}
+
+.waiting .img_container {
+    position: relative;
+}
+
+.waiting .waiting_description {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 10%;
+    text-align: center;
+    color: white;
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.arrow {
+    padding-top: 25px;
+}
+
+.arrow .arrow_title {
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #222222;
+}
+
+.arrow .arrow_arrow_img {
+    max-width: 100%;
+    padding-top: 250px;
+}
+
+.arrow_mobile {
+    padding-top: 5px;
+}
+
+.arrow_mobile .arrow_mobile_title {
+    font-size: 10px;
+    line-height: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #222222;
+}
+
+.arrow_mobile_img {
+    display: block;
+    margin: 0 auto;
+    height: 200px;
+}
+
+
+.links {
+    padding: 50px 0 50px 0;
+    background-color: #222222;
+}
+
+.links .links_img {
+    border-radius: 100%; /* Радиус скругления */
+    border: 3px solid green; /* Параметры рамки */
+    box-shadow: 0 0 7px #666; /* Параметры тени */
+    width: 100%;
+}
+
+
+/*Блок Матвей*/
+.congratulation_Matthew {
+    height: 840px;
+    background: url("../img/m_safr/main_bg1.png") center center/cover no-repeat;
+    padding-top: 100px;
+}
+
+.congratulation_Matthew .congratulation_Matthew_descr {
+    margin-top: 50px;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 40px;
+    color: white;
+    text-align: justify;
+    padding: 150px 200px 150px 200px;
+}
+
+.fakes {
+    padding: 25px 0 25px 0;
+    background-color: rgba(70, 57, 75, 0.8);
+}
+
+.fakes .fakes_title {
+    padding: 0 0 25px 0;
+    text-align: center;
+    font-size: 26px;
+    line-height: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+
+.fakes .fakes_img {
+    margin-top: 25px;
+    max-width: 100%;
+    filter: brightness(70%)
+}
+
+.fakes .border {
+    border-color: rgb(46, 139, 87);
+}
+
+.memories {
+    padding: 25px 0 25px 0;
+}
+
+.memories .memories_title {
+    text-align: center;
+    font-size: 26px;
+    line-height: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.memories .memories_img {
+    margin-top: 25px;
+    height: 690px;
+
+}
+
+/*Конец блока Матвея*/
+
+
+/*Блок Сиража*/
+.main {
+    height: 2000px;
+    background: url("../img/snoopdag/main_bg.png") center center/cover no-repeat;
+}
+
+.main .main_img {
+    width: 100%;
+    margin-top: 250px;
+    filter: brightness(70%);
+}
+
+/*Конец блока Сиража*/
+
+/*Блок Владимира*/
+.camera {
+    height: 900px;
+    background: url("../img/vova/main_bg.jpg") center center/cover no-repeat;
+    padding-top: 250px;
+}
+
+.camera .camera_title {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 40px;
+    color: white;
+    text-align: justify;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.camera .camera_title A:link, .camera .camera_title A:visited {
+    color: white;
+}
+
+.photo {
+    padding: 25px 0 25px 0;
+    background-color: black;
+}
+
+.photo .photo_title {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 40px;
+    color: white;
+    text-align: center;
+}
+
+.photo .photo_img {
+    margin-top: 25px;
+    background-color: white;
+    width: 100%;
+    border: 30px solid white;
+}
+
+/*Конец блока Владимира*/
+
+/*Блок Романа*/
+
+.universe {
+    background: url("../img/roma/main_bg1.png") center center/cover no-repeat;
+    height: 860px;
+}
+
+.example {
+    cursor: pointer;
+    height: 760px;
+    position: relative;
+    overflow: hidden;
+    text-align: justify;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.example .fadedbox {
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    -webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    -o-transition: all 300ms ease-out;
+    -ms-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+    opacity: 0;
+    height: 30px;
+}
+
+.example:hover .fadedbox {
+    opacity: 0.8;
+}
+
+.example .text {
+    -webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    -o-transition: all 300ms ease-out;
+    -ms-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+    transform: translateY(0px);
+}
+
+.example .title {
+    font-size: 20px;
+    text-transform: uppercase;
+    opacity: 1;
+    transition-duration: 45s;
+}
+
+.example:hover .title,
+.example:focus .title {
+    opacity: 1;
+    transform: translateY(-950px);
+}
+
+.universe_img {
+    width: 120%;
+    margin-top: 25px
+}
+
+/*Конец блока Романа*/
+
+/*Блок Маши*/
+.gallery {
+    padding: 25px 0;
+    background-color: rgb(46, 139, 87);
+}
+
+.gallery .gallery_photo {
+    margin-top: 25px;
+    max-width: 100%
+}
+
+/*Конец блока Маши*/
+
+/*Начало блока осени*/
+.autumn{
+    background: linear-gradient(#3b0053 0%, #00ab37 100%);
+    padding: 35px;
+}
+
+.autumn .autumn_title {
+    margin: 50px 0;
+    text-align: center;
+    color: white;
+}
+.autumn .autumn_photo{
+    margin: 10px;
+}
+/*Конец блока осени*/
+
+@media (max-width: 450px) {
+    .subheader {
+        font-size: 15px;
+        line-height: 25px;
+        height: 25px;
+    }
+
+    .congratulation {
+        height: 350px;
+        padding-top: 8px;
+    }
+
+    h1 {
+        text-align: center;
+        margin-top: 45px;
+        font-size: 20px;
+    }
+
+    .congratulation .congratulation_description {
+        margin-top: 0;
+        padding: 10px;
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .navigation_btn {
+        font-size: 15px;
+    }
+
+    .sendoff {
+        padding: 10px 0;
+    }
+
+    .sendoff .sendoff_title {
+        margin-bottom: 10px;
+        font-size: 12px;
+        line-height: 12px;
+    }
+
+    .waiting {
+        padding: 10px 0 10px 0;
+    }
+
+    .waiting .waiting_title {
+        font-size: 12px;
+        line-height: 12px;
+        margin: 0;
+    }
+
+    .waiting .waiting_img {
+        margin-top: 10px;
+    }
+
+    .waiting .waiting_description {
+        font-size: 15px;
+    }
+
+    .links {
+        padding: 10px 0 10px 0;
+    }
+
+    .links .links_img {
+        width: 100%;
+        border: 1px solid green; /* Параметры рамки */
+    }
+
+
+    .universe {
+        background: url("../img/roma/main_mobile_bg1.png") center center/cover no-repeat;
+        height: 700px;
+    }
+
+    .example {
+        height: 760px;
+    }
+
+    .example .title {
+        font-size: 8px;
+    }
+
+    .universe_img {
+        width: 100%;
+        margin-top: 10px
+    }
+
+
+    /*Блок Владимира*/
+    .camera {
+        height: 450px;
+        padding-top: 70px;
+    }
+
+    .camera .camera_title {
+        font-size: 16px;
+        line-height: 17px;
+    }
+
+
+    .photo {
+        padding: 20px 0;
+    }
+
+    .photo .photo_title {
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .photo .photo_img {
+        margin-top: 20px;
+        width: 100%;
+        border: 20px solid white;
+    }
+
+    /*Конец блока Владимира*/
+    /*Блок Матвей*/
+    .congratulation_Matthew {
+        height: 400px;
+        padding-top: 15px;
+    }
+
+    .congratulation_Matthew .congratulation_Matthew_descr {
+        margin-top: 60px;
+        font-size: 18px;
+        line-height: 20px;
+        padding: 0;
+    }
+
+    .fakes {
+        padding: 20px 0;
+    }
+
+    .fakes .fakes_title {
+        font-size: 12px;
+        line-height: 14px;
+        padding-bottom: 0px;
+        margin: 0;
+    }
+
+    .fakes .fakes_img {
+        margin-top: 20px;
+    }
+
+    .memories {
+        padding: 10px 0;
+    }
+
+    .memories .memories_title {
+        font-size: 10px;
+        line-height: 12px;
+        margin: 0;
+    }
+
+    .memories .memories_img {
+        margin-top: 10px;
+        height: 600px;
+
+    }
+
+    /*Конец блока Матвея*/
+    /*Блок Сиража*/
+    .main {
+        height: 700px;
+    }
+
+    .main .main_img {
+        width: 100%;
+        margin-top: 25px;
+    }
+
+    /*Конец блока Сиража*/
+
+    /*Начало блока осени*/
+    .autumn{
+        padding: 15px;
+    }
+
+    .autumn .autumn_title {
+        margin: 15px 0 0 0;
+    }
+    .autumn .autumn_photo{
+        width: 100%;
+        display: block;
+        margin: 10px auto;
+    }
+    .autumn .autumn_photo_gif{
+
+    }
+    /*Конец блока осени*/
+
+}
+
+
+
+
+
+
+
